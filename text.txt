@@ -1,0 +1,31 @@
+Index.html
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>ویس و عکس</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAuRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQGCAkJCgoKCQwNDQwQEBEPEg8PDw8QEBAQEBkREhERExQTEA8QEBEPEhEP...'); /* عکس آپلودشده */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        audio {
+            position: absolute;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <audio controls>
+        <source src="https://drive.google.com/file/d/1tXZOKynxliWFhp4DJorP09CFaMgImFqc/preview" type="audio/mpeg">
+        مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+    </audio>
+</body>
+</html>
